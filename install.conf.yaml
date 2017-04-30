@@ -1,0 +1,59 @@
+- clean: ['~']
+
+- link:
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.tmux.conf: tmux.conf
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.Xresources: Xresources
+    ~/.xinitrc: xinitrc
+    ~/.config/i3:
+        path: config/i3/
+        create: true
+    ~/.config/alacritty:
+        path: config/alacritty/
+        create: true
+    ~/.config/fontconfig:
+        path: config/fontconfig/
+        create: true
+    ~/.config/cmus:
+        path: config/cmus/
+        create: true
+    ~/.config/goblocks:
+        path: config/goblocks/
+        create: true
+    ~/.config/htop:
+        path: config/htop/
+        create: true
+    ~/.config/ranger:
+        path: config/ranger/
+        create: true
+    ~/.config/rofi:
+        path: config/rofi/
+        create: true
+    ~/.config/st:
+        path: config/st/
+        create: true
+    ~/.config/termite:
+        path: config/termite/
+        create: true
+    ~/.config/Thunar:
+        path: config/Thunar/
+        create: true
+    ~/.config/pacmatic:
+        path: config/pacmatic
+        create: true
+    ~/.config/pavucontrol.ini:
+        path: config/pavucontrol.ini
+        create: true
+    ~/.antigen:
+        path: antigen/
+        create: true
+    ~/.vscode:
+        path: vscode/
+        create: true
+    ~/.i3blocks.conf: i3blocks.conf
+
+

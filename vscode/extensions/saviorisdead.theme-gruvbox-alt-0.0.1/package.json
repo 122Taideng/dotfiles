@@ -1,0 +1,26 @@
+{
+	"name": "theme-gruvbox-alt",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "saviorisdead",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "gruvbox-alt",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gruvbox.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8eb6dc70-73a0-493e-908a-932770011765",
+		"publisherId": "a0ec41cb-a226-4a46-9c18-0ea1dadd0529",
+		"publisherDisplayName": "saviorisdead"
+	}
+}

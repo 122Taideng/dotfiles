@@ -1,0 +1,24 @@
+{
+    "colors": {
+        "color_crit": "#FF0000",
+        "color_warn": "#FFA500",
+        "color_ok": "#00FF00",
+        "color_general": "#FFFFFF"
+    },
+    "interval": "5s",
+    "entries": [
+        {
+            "package": "memory",
+            "name": "memory",
+            "options": {
+                "interval": "10s",
+                "warn_threshold": 75,
+                "crit_threshold": 85
+            }
+        },
+        {
+            "package": "clock",
+            "name": "clock"
+        }
+    ]
+}

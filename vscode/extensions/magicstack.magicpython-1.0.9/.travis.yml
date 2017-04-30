@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - 0.10
+
+install:
+  - make
+
+script:
+  - make ci-test
+  - 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'

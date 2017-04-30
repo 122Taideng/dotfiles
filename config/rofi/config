@@ -1,0 +1,3 @@
+#include "/home/your-user/.config/rofi/themes/gruvbox/gruvbox-dark.theme"
+#include "/home/shoham/.config/rofi/themes/gruvbox/gruvbox-dark.theme"
+#include "/home/$USER/.config/rofi/themes/gruvbox/gruvbox-dark.theme"
